@@ -1,0 +1,7 @@
+{
+  "name": "training-lab-angular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
