@@ -22,6 +22,7 @@ export class AuthInterceptor implements HttpInterceptor {
         if (token && this.requestRequiresToken(req)) {
           req = req.clone({
             setHeaders: {
+              // eslint-disable-next-line @typescript-eslint/naming-convention
               Authorization: 'Bearer ' + token,
             },
           });
