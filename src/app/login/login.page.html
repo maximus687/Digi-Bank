@@ -33,6 +33,16 @@
     </ion-list>
   </form>
 
+  <div
+    *ngIf="loginForm.form.valid"
+    class="login-control ion-text-center"
+    (click)="signIn()"
+    data-testid="signin-button"
+  >
+    <ion-icon name="log-in-outline"></ion-icon>
+    <div>Sign In</div>
+  </div>
+
   <div class="error-message">
     <div *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)">
       <div *ngIf="emailInput.errors.email">
@@ -48,16 +58,3 @@
     </div>
   </div>
 </ion-content>
-
-<ion-footer>
-  <ion-toolbar>
-    <ion-button
-      id="signin-button"
-      expand="full"
-      [disabled]="!loginForm.form.valid"
-      (click)="signIn()"
-      >Sign In
-      <ion-icon slot="end" name="log-in-outline"></ion-icon>
-    </ion-button>
-  </ion-toolbar>
-</ion-footer>
