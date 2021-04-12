@@ -1,6 +1,6 @@
 # Ionic Training Lab - Angular
 
-This project is the starting point for the Angular based self-guided trainings provided by Angular. These trainings provide information for the use of the following products:
+This project is the starting point for the Angular based self-guided trainings provided by Ionic. These trainings provide information for the use of the following products:
 
 - Identity Vault
 - Auth Connect
