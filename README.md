@@ -28,4 +28,23 @@ Currently, if the user clicks on tab2, the auth interceptor will fail to add a t
 
 ### Identity Vault
 
+The <a href="https://ionic-training-decks.firebaseapp.com/course/identity-vault/tabs/angular/page/0" target="_blank">Identity Vault training</a> guides you through taking this application and making the following enhancements to it:
+
+- Implement a simple authentication workflow without Identity Vault.
+- Add Identity Vault to the workflow you just implemented in order to store the session informtion without locking it.
+- Use Identity Vault to securely lock the session information when the application is closed or put into the background for a specified period of time.
+- Enhance the user experience by implementing a custom PIN entry dialog
+
+The end result of this training can be examined in the `training/identity-vault` branch of this project.
+
 ### Auth Connect
+
+The <a href="https://ionic-training-decks.firebaseapp.com/course/auth-connect/tabs/angular/page/0" target="_blank">Auth Connect training</a> guides you through taking this application and making the following enhancements to it:
+
+- Install Ionic Auth Connect and confgure it to work with your OIDC provider (the training uses one of our providers, so you do not need your own).
+- Create a basic authentication workflow using Auth Connect within the application.
+- Secure the OIDC tokens by having Ionic Auth Connect use Ionic Identity Vault as the storage mechanism.
+
+The end result of this training can be examined in the `training/auth-connect` branch of this project.
+
+Happy Coding!! 🤓
