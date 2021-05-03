@@ -24,6 +24,13 @@ There are two HTTP interceptors included in the application:
 
 Currently, if the user clicks on tab2, the auth interceptor will fail to add a token to the outgoing request, because we do not have one. This will result in a 401 error. The unauth interceptor will then redirect the user to the login page. This makes tab2 completely inaccessible, and that is what the trainings will rectify via the use of Auth Connect and Identity Vault.
 
+## Credentials
+
+This application uses a live backend API that requires a login. In all cases, please use the following credentials:
+
+- **email:** `test@ionic.io`
+- **password:** `Ion54321`
+
 ## Trainings
 
 ### Identity Vault
